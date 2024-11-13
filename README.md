@@ -6,9 +6,9 @@ O objetivo deste projeto é trazer um pouco de discussão referente a utilizaç�
 
 Dependências:
 
-      pip install pytest-json-report (possivelmente esta será a ferramenta de extração de uma estrutura de dados representativa dos testes. Explorar alternativas e discutir possibildiades de talvez fazer uma extração própria)
+      pip install pytest-json-report # ferramenta de extração mas podemos discutir outras estratégias
       pip install pytest-html
-      pip install pytest-html-reporter  (possivelmente essa sera a ferramenta de report de fato)
+      pip install pytest-html-reporter #possivelmente essa sera a ferramenta de report de fato
 
 # Rodando os testes
 
