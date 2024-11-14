@@ -23,7 +23,22 @@ O pytest por default roda todos os arquivos no formato test_*.py ou *_test.py
 # Entendendo o Projeto
 todo
 
-Ferramentas para pesquisar:
+# Ferramentas para pesquisar:
 1. https://grafana.com/
 2. https://streamlit.io/
 3. https://plotly.com/
+
+# Métricas relevantes a tentar adicionar
+1. Quantidade de testes executados com sucesso
+2. Quantidade de testes executados com falha
+3. Quantidade de testes bloqueados
+4. Tempo de execução Geral
+5. Tempo de execução por teste
+6. Testes Instáveis (Falsos positivos, falsos negativos)
+7. Latency
+8. Defect Leakage (Para verificar isso, seria necessário saber os defeitos que o teste capturou vs a quantidade de defeitos totais)
+9. Cobertura de Código
+10. Stack Trace
+11. Linha de Erro
+12. Densidade de defeitos (quantidade de defeitos por linha de código).
+
