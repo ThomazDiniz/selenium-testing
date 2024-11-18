@@ -12,8 +12,8 @@ import time
 import json
 from html import unescape
 
-@pytest.fixture
-def test_setup():
+@pytest.fixture(scope="function")
+def driver(request):
 	global driver
 	chrome_options = Options()
 	#chrome_options.add_argument("--headless")  #(sem abrir janela)
@@ -28,7 +28,7 @@ def test_setup():
 	driver = webdriver.Chrome(service=Service(chromedriver_autoinstaller.install()), options=chrome_options)
 	driver.implicitly_wait(10)
 	
-	yield
+	yield driver
 	
 	driver.close()
 	driver.quit()
