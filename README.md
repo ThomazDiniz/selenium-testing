@@ -21,7 +21,11 @@ O pytest por default roda todos os arquivos no formato test_*.py ou *_test.py
 
 
 # Entendendo o Projeto
-todo
+Este é um projeto de testes sobre como gerar reports utilizando selenium + pytest. A execução dos testes é utilizando o pytest. Temos uma função de configuração no arquivo conf.py que serve exatamente para não ser necessário iniciar o driver e algumas configurações do selenium em todos os testes.
+
+Temos uma suite de testes sem selenium exclusivamente para observar como os reports se comportam sem o selenium e com ele em relação aos warnings, erros, passes e skips.
+
+O esperado é que a gente consiga brincar com outras ferramentas também. Mas como um teste inicial já é razoável o que foi criado.
 
 # Ferramentas para pesquisar:
 1. https://grafana.com/
